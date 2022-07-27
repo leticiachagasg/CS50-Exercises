@@ -1,0 +1,13 @@
+sort1 uses: Bubble
+
+How do you know?: Difference between real time in sorting best and worst case scenarios (respectively, sorted and reversed lists) is the biggest wich algorithm from Sort 1.
+This is consistent wich Bubble sorting (that has O of n2 and Omega of n) while for Algorithms 2 and 3 the time difference didn't have a significant variantion (also consistent with bothMerge and Selection having equal lower and upper bounds each)
+
+sort2 uses: Merge
+
+How do you know?: Merge has the same lower/upper bound (theta of n*log n) while selection has also the same upper/lower bound but with theta of n2.
+Algorithm in Sort2 performs faster than Sort3 (and a lot faster than Sort1) in scenarios with the largest random/reversed numbers wich is consistent with Merge algorithm
+
+sort3 uses: Selection
+
+How do you know?: By elimination, but also in the best case scenario (sorted list) we can compare Sort1 (bubble) with Sort3 (Selection) and see the difference in time matches the difference in their Omegas (n for Bubble, n2 for Selection)
